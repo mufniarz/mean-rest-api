@@ -1,0 +1,8 @@
+<p>This is the movie-delete view.</p>
+<form role="form">
+	<p>Are you sure you wish to delete the movie {{ movie.title }}?</p>
+	<div class="form-group">
+		<input type="submite" class="btn btn-danger" ng-click="deleteMovie()" value="Yes">
+		<button ng-click="back()" type="button" class="btn btn-default">No</button>
+	</div>
+</form>
